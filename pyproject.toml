@@ -1,0 +1,27 @@
+[project]
+name = "k-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "allure-pytest>=2.14.2",
+    "clickhouse-sqlalchemy>=0.3.2",
+    "jenkins>=1.0.2",
+    "jsonpath>=0.82.2",
+    "pandas>=2.2.3",
+    "pymongo>=4.12.1",
+    "pymysql>=1.1.1",
+    "pytest>=8.3.5",
+    "pyyaml>=6.0.2",
+    "redis>=6.1.0",
+    "requests>=2.32.3",
+    "sqlalchemy>=2.0.40",
+    "xlrd>=2.0.1",
+    "xlutils>=2.0.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "mock_server",
+]
