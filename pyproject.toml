@@ -10,6 +10,7 @@ dependencies = [
     "jenkins>=1.0.2",
     "jsonpath>=0.82.2",
     "pandas>=2.2.3",
+    "paramiko>=3.5.1",
     "pymongo>=4.12.1",
     "pymysql>=1.1.1",
     "pytest>=8.3.5",
@@ -23,5 +24,5 @@ dependencies = [
 
 [tool.uv.workspace]
 members = [
-    "mock_server",
+    "mock_server/api_server",
 ]
